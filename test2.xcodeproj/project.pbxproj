@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF6CA4F31FAAB21700769027 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6CA4F21FAAB21700769027 /* Manager.m */; };
 		FF87CB911F70B861003FA199 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF87CB901F70B861003FA199 /* main.m */; };
 		FF87CB941F70B861003FA199 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF87CB931F70B861003FA199 /* AppDelegate.m */; };
 		FF87CB971F70B861003FA199 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF87CB961F70B861003FA199 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF6CA4F11FAAB21700769027 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		FF6CA4F21FAAB21700769027 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 		FF87CB8C1F70B861003FA199 /* test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF87CB901F70B861003FA199 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF87CB921F70B861003FA199 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 				FF87CB931F70B861003FA199 /* AppDelegate.m */,
 				FF87CB951F70B861003FA199 /* ViewController.h */,
 				FF87CB961F70B861003FA199 /* ViewController.m */,
+				FF6CA4F11FAAB21700769027 /* Manager.h */,
+				FF6CA4F21FAAB21700769027 /* Manager.m */,
 				FF87CB981F70B861003FA199 /* Main.storyboard */,
 				FF87CB9B1F70B861003FA199 /* Assets.xcassets */,
 				FF87CB9D1F70B861003FA199 /* LaunchScreen.storyboard */,
@@ -167,6 +172,7 @@
 				FF87CB971F70B861003FA199 /* ViewController.m in Sources */,
 				FF87CB941F70B861003FA199 /* AppDelegate.m in Sources */,
 				FF87CBA91F70B86C003FA199 /* UIAlertController+AttibuteText.m in Sources */,
+				FF6CA4F31FAAB21700769027 /* Manager.m in Sources */,
 				FF87CB911F70B861003FA199 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +336,7 @@
 				FF87CBA51F70B861003FA199 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
